@@ -263,7 +263,7 @@ public class TestSunshineDatabase {
      * This method tests that our database contains all of the tables that we think it should
      * contain. Although in our case, we just have one table that we expect should be added
      * <p>
-     * {@link com.example.android.sunshine.data.TABLE_NAME}.
+     * {@link com.example.android.sunshine.data.WeatherContract.WeatherEntry.TABLE_NAME}.
      * <p>
      * Despite only needing to check one table name in Sunshine, we set this method up so that
      * you can use it in other apps to test databases with more than one table.
